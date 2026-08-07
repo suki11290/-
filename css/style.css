@@ -512,13 +512,12 @@
    
 
 
-    width:75%;
 
+    width:80%;
 
-    font-size:22px;
+    margin:auto;
 
-
-    line-height:2;
+    text-align:center;
 
 
 
@@ -620,6 +619,68 @@
 
 
     cursor:pointer;
+
+
+}
+
+
+@media (max-width:600px){
+
+    .home h1{
+
+        font-size:36px;
+
+    }
+
+
+    .home p{
+
+        font-size:16px;
+
+    }
+
+
+    .home button{
+
+        padding:15px 55px;
+
+    }
+
+}
+
+
+@media (max-width:600px){
+
+
+#letter{
+
+
+    width:85vw;
+
+
+    min-height:260px;
+
+
+    padding:35px;
+
+
+
+}
+
+
+#answer{
+
+
+    width:70%;
+
+
+    font-size:22px;
+
+
+    line-height:2.2;
+
+
+}
 
 
 }
